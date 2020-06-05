@@ -8,27 +8,17 @@ const Footer = () => {
                 <MDBRow className="pt-5 mb-3 text-center d-flex justify-content-center">
                     <MDBCol md="2" className="b-3">
                         <h6 className="title font-weight-bold">
-                            <a href="#!">About us</a>
+                            <a href="/about">About us</a>
                         </h6>
                     </MDBCol>
                     <MDBCol md="2" className="b-3">
                         <h6 className="title font-weight-bold">
-                            <a href="#!">Products</a>
+                            <a href="/pricing">Pricing</a>
                         </h6>
                     </MDBCol>
                     <MDBCol md="2" className="b-3">
                         <h6 className="title font-weight-bold">
-                            <a href="#!">Awards</a>
-                        </h6>
-                    </MDBCol>
-                    <MDBCol md="2" className="b-3">
-                        <h6 className="title font-weight-bold">
-                            <a href="#!">Help</a>
-                        </h6>
-                    </MDBCol>
-                    <MDBCol md="2" className="b-3">
-                        <h6 className="title font-weight-bold">
-                            <a href="#!">Contact</a>
+                            <a href="/contact">Contact</a>
                         </h6>
                     </MDBCol>
                 </MDBRow>
@@ -51,10 +41,8 @@ const Footer = () => {
                         <div className="mb-5 flex-center">
                             <MDBIcon fab icon="facebook-f" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
                             <MDBIcon fab icon="twitter" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
-                            <MDBIcon fab icon="google-plus-g" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
                             <MDBIcon fab icon="linkedin-in" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
                             <MDBIcon fab icon="instagram" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
-                            <MDBIcon fab icon="pinterest" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
                         </div>
                     </MDBCol>
                 </MDBRow>
@@ -62,7 +50,7 @@ const Footer = () => {
             <div className="footer-copyright text-center py-3">
                 <MDBContainer fluid>
                     &copy; {new Date().getFullYear()} Copyright:
-                <a href="https://www.MDBootstrap.com" alt=""> MDBootstrap.com </a>
+                <a href="https://martingras95.github.io/" target="_blank" alt="Martin Gras portfolio"> Martin Gras </a>
                 </MDBContainer>
             </div>
         </MDBFooter>

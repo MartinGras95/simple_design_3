@@ -1,11 +1,11 @@
 .navbar.navbar-dark{
   margin: 0;
-  background-image: linear-gradient(90deg, #3c0472, #5D00B7);
+  background-image: linear-gradient(90deg, #2bbbad, #11ad9e);
 }
 
 .page-footer {
   margin: 0;
-  background-image: linear-gradient(-90deg, #3c0472, #5D00B7);
+  background-image: linear-gradient(-90deg, #2bbbad, #11ad9e);
 }
 
 .carousel {

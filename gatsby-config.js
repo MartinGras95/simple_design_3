@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'MDB React Starter',
-    description: 'MDB React starter for material design landing page',
+    title: 'Simple Design 3',
+    description: 'Simple design 3',
     siteUrl: 'https://gatsby-starter.mdbootstrap.com',
-    author: 'anna-morawska',
+    author: 'Martin Gras',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,8 +29,5 @@ module.exports = {
         icon: `${__dirname}/src/images/mdb-react-small.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
   ],
 }
